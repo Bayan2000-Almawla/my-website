@@ -66,11 +66,11 @@ export function Footer() {
             <div className="mt-4 space-y-3 text-sm text-white/70">
               <p className="flex items-center gap-2">
                 <Mail className="h-4 w-4 text-red-400" />
-                support@example.com
+                almawlairaq@yahoo.com
               </p>
               <p>
-                يمكن إضافة نماذج بريد/واتساب لاحقًا. الموقع جاهز لتركيب الإعلانات
-                وMonetag.
+                نسعى لتقديم محتوى عربي احترافي ومفيد حول تمارين وزن الجسم والكاليستنكس للمبتدئين والمحترفين.
+                
               </p>
             </div>
 
@@ -91,7 +91,7 @@ export function Footer() {
             © {new Date().getFullYear()} تمارين وزن الجسم — جميع الحقوق محفوظة.
           </p>
           <p className="text-xs text-white/55">
-            تصميم واجهة حديثة — RTL — جاهز للنشر على Vercel
+            نهدف إلى نشر محتوى رياضي عربي يساعد على تحسين اللياقة وبناء القوة بطريقة صحية وآمنة.
           </p>
         </div>
       </div>
