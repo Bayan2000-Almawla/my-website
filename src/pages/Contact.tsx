@@ -17,14 +17,13 @@ export default function Contact() {
         <div className="relative">
           <div className="flex flex-wrap items-center gap-2">
             <Badge tone="red">اتصل بنا</Badge>
-            <Badge>بدون Backend</Badge>
+            
           </div>
           <h1 className="mt-5 text-2xl font-extrabold text-white sm:text-4xl">
             تواصل معنا
           </h1>
           <p className="mt-3 max-w-2xl text-sm leading-relaxed text-white/70 sm:text-base">
-            لديك سؤال عن التدرج أو التغذية أو البرامج؟ اكتب لنا وسنضيف جوابك ضمن
-            المقالات/FAQ لاحقًا.
+            إذا كان لديك أي سؤال أو استفسار بخصوص التمارين أو التغذية أو برامج الكاليستنكس، يمكنك التواصل معنا عبر النموذج التالي.
           </p>
         </div>
       </section>
@@ -34,7 +33,7 @@ export default function Contact() {
           <div className="rounded-[2.25rem] border border-white/10 bg-white/[0.04] p-6 sm:p-8">
             <SectionHeading
               title="نموذج التواصل"
-              subtitle="حاليًا: محاكاة إرسال فقط (UI) — جاهز للربط لاحقًا." 
+              subtitle="يمكنك إرسال استفسارك وسنحاول الرد بأسرع وقت ممكن." 
             />
 
             {sent ? (
@@ -44,7 +43,7 @@ export default function Contact() {
                   <p className="text-sm font-extrabold">تم إرسال الرسالة!</p>
                 </div>
                 <p className="mt-2 text-sm text-white/70">
-                  شكرًا لك. (هذه تجربة واجهة فقط — لا يتم إرسال بيانات فعلية.)
+                  شكرًا لتواصلك معنا.
                 </p>
               </div>
             ) : null}
@@ -111,11 +110,11 @@ export default function Contact() {
           <AdSlot variant="sidebar" label="إعلان جانبي داخل صفحة التواصل" />
 
           <div className="rounded-3xl border border-white/10 bg-white/[0.04] p-5">
-            <p className="text-sm font-extrabold text-white">اقتراحات سريعة</p>
+            <p className="text-sm font-extrabold text-white">نصائح للتواصل</p>
             <ul className="mt-4 space-y-2 pr-6 text-sm text-white/70">
               <li className="list-disc">اطلب موضوعًا تريد مقاله (عقلة/ضغط/بطن).</li>
               <li className="list-disc">أرسل مستوى تكراراتك الحالي لنقترح تدرجًا.</li>
-              <li className="list-disc">اذكر إن كان لديك إصابة/ألم.</li>
+              
             </ul>
           </div>
         </aside>
