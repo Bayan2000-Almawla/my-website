@@ -102,14 +102,9 @@ export default function Contact() {
             <p className="text-sm font-extrabold text-white">معلومات تواصل</p>
             <div className="mt-4 space-y-3 text-sm text-white/70">
               <p className="flex items-center gap-2">
-                <Mail className="h-4 w-4 text-red-400" /> support@example.com
+                <Mail className="h-4 w-4 text-red-400" /> almawlairaq@yahoo.com
               </p>
-              <p className="flex items-center gap-2">
-                <Phone className="h-4 w-4 text-red-400" /> +000 000 0000
-              </p>
-              <p className="text-xs text-white/55">
-                * بيانات تجريبية — استبدلها عند النشر.
-              </p>
+              
             </div>
           </div>
 
