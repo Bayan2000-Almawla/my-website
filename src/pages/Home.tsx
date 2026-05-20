@@ -42,7 +42,7 @@ export default function Home() {
           <div className="lg:col-span-7">
             <div className="flex flex-wrap items-center gap-2">
               <Badge tone="red">مجلة تمارين وزن الجسم</Badge>
-              <Badge>RTL</Badge>
+              <Badge>تمارين كاليستنكس</Badge>
               <Badge>مهيّأ للموبايل أولًا</Badge>
             </div>
 
@@ -256,11 +256,11 @@ export default function Home() {
         <div className="grid gap-8 lg:grid-cols-12 lg:items-center">
           <div className="lg:col-span-5">
             <SectionHeading
-              title="إحصائيات لياقة — بشكل مجلة"
-              subtitle="أرقام تجريبية لإضفاء طابع احترافي (يمكن ربطها ببيانات حقيقية لاحقًا)."
+              title="إحصائيات ومحتوى تدريبي"
+              subtitle="محتوى متجدد يشمل أفضل تمارين وزن الجسم والكاليستنكس للمبتدئين والمحترفين."
             />
             <div className="mt-6 grid gap-3 sm:grid-cols-2">
-              <Stat value="+120" label="نسخة تمرين" />
+              <Stat value="+120" label="تمرين وشرح" />
               <Stat value="+15" label="برنامج تدريبي" />
               <Stat value="4" label="مسارات تدرج" />
               <Stat value="100%" label="بدون أجهزة" />
@@ -285,8 +285,8 @@ export default function Home() {
               />
               <Feature
                 icon={<Sparkles className="h-5 w-5" />}
-                title="تصميم حديث"
-                desc="خلفية داكنة فخمة مع الأحمر والأبيض — متجاوب بالكامل." 
+                title="محتوى احترافي"
+                desc="مقالات وتمارين مفصلة تساعدك على بناء القوة واللياقة باستخدام وزن الجسم فقط." 
               />
             </div>
           </div>
