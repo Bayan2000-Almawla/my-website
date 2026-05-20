@@ -3,7 +3,6 @@ import {
   ArrowLeft,
   Dumbbell,
   Target,
-  Sparkles,
   TrendingUp,
   ShieldCheck,
   Timer,
@@ -182,7 +181,7 @@ export default function Home() {
               <div className="flex items-center justify-between">
                 <p className="text-sm font-extrabold text-white">نصائح سريعة</p>
                 <span className="inline-flex h-10 w-10 items-center justify-center rounded-2xl border border-white/10 bg-black/30 text-red-200">
-                  <Sparkles className="h-5 w-5" />
+                  <BookOpen className="h-5 w-5" />
                 </span>
               </div>
               <ul className="mt-4 space-y-3 pr-6 text-sm text-white/75">
@@ -284,7 +283,7 @@ export default function Home() {
                 desc="توصيات للحماية من الألم/الإصابة مع بدائل للمبتدئ." 
               />
               <Feature
-                icon={<Sparkles className="h-5 w-5" />}
+                icon={<BookOpen className="h-5 w-5" />}
                 title="محتوى احترافي"
                 desc="مقالات وتمارين مفصلة تساعدك على بناء القوة واللياقة باستخدام وزن الجسم فقط." 
               />
